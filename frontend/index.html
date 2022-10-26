@@ -4,9 +4,27 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>This is FRONTEND</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
+	<title>UI build form light</title>
 </head>
 <body>
-	<div id="root"></div>
+	<div id="root">
+		<form action="/action_page.php" method="get" class="main-form">
+			<h1>Visszajelzés</h1>
+			<input type="text" placeholder="Tárgy" class="subject">
+			<textarea name="comment-textarea" placeholder="Megjegyzés"></textarea>
+			<div class="data-management-container">
+				<span class="checkmark"></span>
+				<input type="checkbox" name="data-checkbox" id="data-management">
+				<label for="data-management">Elolvastam és elfogadom az <u>Adatkezelési Tájékoztatót.</u></label>
+			</div>
+			<div class="button-element">
+				<button>Mentés</button>
+			</div>
+		</form>
+	</div>
 </body>
 </html>
