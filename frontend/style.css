@@ -39,9 +39,6 @@
 
 body {
     background-color: #f7e4d4;
-}
-
-#root {
     display: flex;
     align-items: center;
     justify-content: center;
