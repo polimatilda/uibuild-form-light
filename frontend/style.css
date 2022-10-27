@@ -46,8 +46,14 @@ body {
     width: 100%;
 }
 
+.main-form {
+    max-width: 480px;
+    margin: 0 auto;
+} /*ezzel van minden középen*/
+
 h1 {
     font-family: 'EB Garamond', serif;
+    font-weight: 400; /*400-as vastagság kellett volna, helyette 500-as volt alapból*/
     font-size: 48px;
     color: #467745;
     width: 100%;
